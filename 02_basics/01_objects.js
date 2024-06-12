@@ -58,6 +58,17 @@ console.log(objFinal);
 
 console.log(Object.keys(JSUser));
 console.log(Object.values(JSUser));
-console.log(Object.entries(JSUser));
+// console.log(Object.entries(JSUser)); //for keys and values
 
 console.log(JSUser.hasOwnProperty('isLoggedIn')); //To find if an entry is there or not
+
+// Object de-structuring
+
+const course = {
+    coursename: "JavaScript",
+    price: 999,
+    courseInstructor: "Aryan"
+}
+
+const {coursename: cname} = course;
+console.log(cname);
