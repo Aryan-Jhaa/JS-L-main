@@ -53,3 +53,11 @@ console.log(obj4);
 
 const objFinal = {...obj1, ...obj2, ...obj3};
 console.log(objFinal);
+
+//to find keys and values
+
+console.log(Object.keys(JSUser));
+console.log(Object.values(JSUser));
+console.log(Object.entries(JSUser));
+
+console.log(JSUser.hasOwnProperty('isLoggedIn')); //To find if an entry is there or not
