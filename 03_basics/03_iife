@@ -1,0 +1,9 @@
+// Immediately Invoked Function Expressions (IIFE)
+
+(function chai(){
+    console.log("DB Connected User");
+})();                                   //(function)(running_the_func)
+
+( (name) => {
+    console.log(`DB Connected by User ${name}`);
+})("aryan");
